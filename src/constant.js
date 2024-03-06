@@ -11,9 +11,16 @@ export const MENUS = [
         icon: 'ri-archive-line',
         // route: ''
     },
+
+    {
+        id: 5,
+        title: 'Expériences',
+        icon: 'ri-archive-line',
+        // route: ''
+    },
     {
         id: 3,
-        title: 'Portfolio',  
+        title: 'Projets',  
         icon: 'ri-pages-line',
         // route: '/',
     },

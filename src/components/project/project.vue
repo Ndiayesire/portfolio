@@ -1,6 +1,6 @@
 <template>
   <div class="justify-center items-center flex pt-[6rem]">
-    <h1 class="text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r to-gray-800 from-gray-300 md:text-5xl lg:text-4xl "><span class="underline underline-offset-3 decoration-5 decoration-yellow-200 ">Mes Projets</span></h1>
+    <h1 class="text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r to-gray-800 from-gray-300 md:text-5xl lg:text-4xl "><span class="underline underline-offset-3 decoration-8 decoration-yellow-200 ">Mes Projets</span></h1>
 
 </div>
 
