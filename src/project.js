@@ -1,30 +1,30 @@
 export const PROJECT = [
     {
         name: 'Online MarketPlace',
-        image: '/src/assets/4.png',
+        image: '/src/assets/online.png',
     },
     {
         name: 'Sama Kalpé',
-        image: '/src/assets/7.png',
+        image: '/src/assets/sama.png',
     },
 
     {
         name: 'Bayre Host',
-        image: '/src/assets/1.png',
+        image: '/src/assets/bayre.png',
     },
 
     {
         name: 'Sentech Valley',
-        image: '/src/assets/2.png',
+        image: '/src/assets/sentech.png',
     },
 
     {
         name: 'Currency Converter',
-        image: '/src/assets/6.png',
+        image: '/src/assets/currency.png',
     },
 
     {
         name: 'Todo APP',
-        image: '/src/assets/5.png',
+        image: '/src/assets/todo.png',
     },
 ]
