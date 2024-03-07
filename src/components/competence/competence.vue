@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-center items-center flex pt-[6rem]">
+    <div class="justify-center items-center flex pt-[4rem]">
       <h1 class="text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r to-gray-800 from-gray-300 md:text-5xl lg:text-4xl"><span class="underline underline-offset-3 decoration-8 decoration-yellow-200">Expériences</span></h1>
     </div>
   
@@ -9,7 +9,7 @@
       </p>
     </div>
   
-    <div class="justify-center items-center flex flex-col pt-2">
+    <div class="justify-center items-center flex flex-col pt-2 ml-2">
       <div>
         <ol class="relative border-s border-gray-300">
           <li class="mb-10 ms-4">
