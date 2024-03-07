@@ -15,6 +15,7 @@
         <div v-show="showNameIndex === index" class="absolute bottom-0 bg-gray-100 border border-black px-2 py-1 rounded">{{ item.name }}</div>
       </div>
     </div>
+    
   </template>
   
   <script setup>
