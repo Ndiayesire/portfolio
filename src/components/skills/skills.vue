@@ -5,7 +5,7 @@
 </div>
 
 <div class="justify-center items-center flex pt-8">
-    <p class="max-w-3xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-md pt-4 text-center">Je suis spécialisé dans le développement web front-end et back-end, avec une expertise particulière dans les langages comme HTML, CSS, JavaScript et PHP. J'ai également une expérience dans l'utilisation de frameworks comme React.js et Vue.js..</p>
+    <p class="max-w-3xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-md pt-4 text-center ml-3 mr-3">Je suis spécialisé dans le développement web front-end et back-end, avec une expertise particulière dans les langages comme HTML, CSS, JavaScript et PHP. J'ai également une expérience dans l'utilisation de frameworks comme React.js et Vue.js..</p>
 </div>
 
 <div class="flex justify-center">
