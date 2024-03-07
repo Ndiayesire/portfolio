@@ -4,7 +4,7 @@
     </div>
   
     <div class="justify-center items-center flex pt-8">
-      <p class="max-w-3xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-md pt-4 text-center">
+      <p class="max-w-3xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-md pt-4 text-center ml-3 mr-3">
         La section expérience présente un aperçu concis et détaillé de mes parcours professionnels et personnels, mettant en lumière mes compétences, réalisations et contributions significatives dans divers domaines.
       </p>
     </div>
@@ -29,8 +29,7 @@
           </li>
         </ol>
       </div>
-  
-      <p class="font-light text-xl text-gray-500">Vous voulez en voir plus 🫣 ? <span class="font-bold text-yellow-200 cursor-pointer hover:text-yellow-300">Télécharger mon CV</span></p>
+      <p class=" font-bold text-gray-400 text-md mr-3 ml-3">Vous voulez en voir plus 🫣 ? <span class="font-bold text-md text-yellow-200 cursor-pointer hover:text-yellow-300">Télécharger mon CV</span></p>
     </div>
   </template>
   
