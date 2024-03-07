@@ -35,9 +35,15 @@ export const LANGUAGE = [
     },
 
     {
-        id:6,
+        id:7,
         name: 'Laravel',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png',
+    },
+
+    {
+        id:8,
+        name: 'Bootstrap',
+        image: 'src/assets/boot.png',
     },
   
 ]
