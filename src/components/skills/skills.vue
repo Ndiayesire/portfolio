@@ -1,6 +1,6 @@
 <template>
 <div class="justify-center items-center flex">
-    <h1 class="text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r to-gray-800 from-gray-300 md:text-5xl lg:text-4xl "><span class="underline underline-offset-3 decoration-5 decoration-yellow-200 ">Compétences</span></h1>
+    <h1 class="text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r to-gray-800 from-gray-300 md:text-5xl lg:text-4xl "><span class="underline underline-offset-3 decoration-8 decoration-yellow-200 ">Compétences</span></h1>
 
 </div>
 
@@ -15,6 +15,7 @@
         <div v-show="showNameIndex === index" class="absolute bottom-0 bg-gray-100 border border-black px-2 py-1 rounded">{{ item.name }}</div>
       </div>
     </div>
+    
   </template>
   
   <script setup>

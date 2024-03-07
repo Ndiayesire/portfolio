@@ -30,7 +30,7 @@ onMounted(() => {
       </div>
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
         <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0">
-          <li v-for="item in MENUS" :key="item.id" :class="{ 'border-b-2 border-gray-500 rounded-sm': itemClicked === item.id }" @click="handleItemClick(item.id)">
+          <li v-for="item in MENUS" :key="item.id" :class="{ 'border-b-2 border-yellow-200 rounded-sm': itemClicked === item.id }" @click="handleItemClick(item.id)">
             <a href="#" class="block py-2 px-2 text-white rounded md:text-gray-500 md:p-2" aria-current="page">{{ item.title }}</a>
           </li>
         </ul>
