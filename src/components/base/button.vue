@@ -11,7 +11,7 @@
 </script>
 
 <template>
-    <button @click="todo" class="text-white bg-gray-800 hover:bg-gray-600 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center">
+    <button @click="todo" class="bg-black text-white font-bold uppercase text-sm px-6 py-3 rounded shadow outline-none focus:outline-none ease-linear transition-all duration-150">
         {{ name }}
         <i :class="icon"></i>
     </button>

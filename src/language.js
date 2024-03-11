@@ -13,13 +13,13 @@ export const LANGUAGE = [
     {
         id:3,
         name: 'Node',
-        image: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png',
+        image: 'https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png',
     },
 
     {
         id:4,
         name: 'React ',
-        image: 'https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png',
     },
 
     {
@@ -30,20 +30,14 @@ export const LANGUAGE = [
 
     {
         id:6,
-        name: 'PHP ',
-        image: 'https://seeklogo.com/images/E/elephpant-mascot-php-logo-4C78D1AC4E-seeklogo.com.png?v=638245916460000000',
+        name: 'Scss ',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png',
     },
 
     {
         id:7,
         name: 'Laravel',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png',
-    },
-
-    {
-        id:8,
-        name: 'Bootstrap',
-        image: 'src/assets/boot.png',
     },
   
 ]
