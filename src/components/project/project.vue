@@ -10,7 +10,7 @@
 
   <div class="flex justify-center pt-3" v-for="(item, index) in PROJECT" :key="index">
     <div class="flex flex-col lg:flex-row lg:space-x-10 pt-3 mr-3 ml-3">
-      <img :src="item.image" class="w-[27rem] h-[16rem] max-w-full rounded-lg shadow mr-3" />
+      <img :src="item.image" class="w-[27rem] h-[16rem] max-w-full rounded-lg shadow mr-3 cursor-pointer transition-transform transform hover:scale-105" />
       <div class="flex flex-col justify-center items-center">
   <h1 class="font-bold text-[18px] text-yellow-200 ml-3 mr-3 pt-5">{{ item.name }}</h1>
   <p class="font-light max-w-sm text-gray-400 pt-1 ml-3 mr-3">{{ item.description }}</p>
