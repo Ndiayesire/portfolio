@@ -2,20 +2,20 @@ export const PROJECT = [
     {
         name: 'Online MarketPlace 🛒',
         image: 'online.png',
-        description: 'An online marketplace is a type of e-commerce site where product or service information is provided by multiple third parties, whereas transactions are processed by the marketplace operator.',
+        description:  "Une plateforme de marketplace est un site web où les utilisateurs peuvent acheter et vendre une variété de produits ou services. Ces sites agissent comme des intermédiaires entre les vendeurs et les acheteurs, offrant un espace centralisé pour la recherche, la comparaison et la transaction d'articles divers",
         language: 'Vue Tailwindcss Javascript'
     },
     {
         name: 'Sama Kalpé 💰',
         image: 'sama.png',
-        description: 'Mobile money exchange refers to the transfer of funds or currency between individuals or businesses using mobile devices.',
+        description: "L'échange d'argent mobile désigne le transfert de fonds ou de devises entre des particuliers ou des entreprises à l'aide d'appareils mobiles.",
         language: 'Vue Tailwindcss Javascript'
     },
 
     {
         name: 'Bayre Host 🌐',
         image: 'bayre.png',
-        description: 'Web hosting is a service that allows individuals and organizations to make their website accessible via the World Wide Web.',
+        description: "L'hébergement web est un service qui permet aux particuliers et aux organisations de rendre leur site web accessible via le World Wide Web.",
         language: 'Wordpress WHMCS'
     },
 
@@ -29,14 +29,14 @@ export const PROJECT = [
     {
         name: 'Currency Converter 💱',
         image: 'currency.png',
-        description: 'A currency converter is a tool or application that allows users to quickly and easily convert the value of one currency into another.',
+        description: "Un convertisseur de devises est un outil ou une application qui permet aux utilisateurs de convertir rapidement et facilement la valeur d'une devise dans une autre.",
         language: 'Vue Tailwindcss Javascript',
     },
 
     {
         name: 'Todo APP 🗒️',
         image: 'todo.png',
-        description: 'A TODO app is a software application designed to help users manage tasks, appointments, and other items on their to-do lists. ',
+        description: 'Une application TODO est une application conçue pour aider les utilisateurs à gérer les tâches, les rendez-vous et les autres éléments de leur liste de choses à faire. ',
         language: 'Vue Tailwindcss Javascript'
     },
 ]

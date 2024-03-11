@@ -22,7 +22,7 @@
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="../../assets/logo.png" class="h-[7rem] w-[6rem]" alt="Flowbite Logo" />
       </a>
-      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-3">
         <div class="dropdown inline-block relative">
           <Basebutton name="Telecharger mon CV" icon="ml-1 font-bold ri-download-cloud-2-line text-white text-md" />
           <ul class="dropdown-content absolute hidden text-gray-700 pt-1 space-y-2">
@@ -34,9 +34,6 @@
             </li>
           </ul>
         </div>
-        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none" aria-controls="navbar-sticky" aria-expanded="false" >
-          <i class="ri-menu-line"></i>
-        </button>
       </div>
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
         <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0">
