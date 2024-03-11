@@ -1,8 +1,8 @@
 <template>
 <div class="flex justify-center items-center pt-4 mx-auto">
   
-  <div class="flex flex-row justify-center border-r-2 border-gray-400">
-    <h1 class="font-semibold mr-3 pt-1">Je suis spécialité en</h1>
+  <div class="flex flex-row justify-center border-r-2 border-gray-300">
+    <h1 class="font-semibold mr-3 pt-1">Tech Satck</h1>
   </div>
 
   <div class="flex flex-row justify-center space-x-1 md:space-x-9 card-container ml-7">

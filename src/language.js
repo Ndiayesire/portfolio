@@ -13,13 +13,13 @@ export const LANGUAGE = [
     {
         id:3,
         name: 'Node',
-        image: 'https://iconape.com/wp-content/png_logo_vector/nodejs.png',
+        image: 'https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png',
     },
 
     {
         id:4,
         name: 'React ',
-        image: 'https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Tailwind-CSS1-900x0.png',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png',
     },
 
     {

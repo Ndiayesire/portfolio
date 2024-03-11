@@ -1,14 +1,16 @@
+<script setup>
+import BaseButton from '@/components/base/button.vue';
+import Modal from '@/components/modal/modal.vue';
+</script>
 <template>
-    <div class="justify-center items-center flex pt-[4rem]">
-      <h1 class="text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r to-gray-800 from-gray-300 md:text-5xl lg:text-4xl"><span class="underline underline-offset-3 decoration-8 decoration-yellow-200">Expériences</span></h1>
-    </div>
-  
-    <div class="justify-center items-center flex pt-8">
-      <p class="max-w-3xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-md pt-4 text-center ml-3 mr-3">
-        La section expérience présente un aperçu concis et détaillé de mes parcours professionnels et personnels, mettant en lumière mes compétences, réalisations et contributions significatives dans divers domaines.
+    <div class="justify-center items-center mx-auto flex pt-8 flex-col pt-[5rem]">
+      <div>
+        <h1 class="text-xl font-bold text-transparent bg-clip-text bg-yellow-200 md:text-xl lg:text-xl  ml-3 mr-3">Expériences</h1>
+      <p class="max-w-3xl font-light text-gray-400 lg:mb-8 md:text-lg lg:lg:text-[17px] ml-3 mr-3">
+        La section expérience présente un aperçu détaillé de mes parcours professionnels et personnels. 🧠
       </p>
-    </div>
-  
+      </div>      
+    </div>  
     <div class="justify-center items-center flex flex-col pt-2 ml-2">
       <div>
         <ol class="relative border-s border-gray-300">
@@ -29,7 +31,7 @@
           </li>
         </ol>
       </div>
-      <p class=" font-bold text-gray-400 text-md mr-3 ml-3">Vous voulez en voir plus 🫣 ? <span class="font-bold text-md text-yellow-200 cursor-pointer hover:text-yellow-300">Télécharger mon CV</span></p>
+    <BaseButton class="mt-4" name="Voir plus" icon="ri-eye-line"/>
     </div>
   </template>
   
