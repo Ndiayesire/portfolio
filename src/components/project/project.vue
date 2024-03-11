@@ -9,17 +9,18 @@
   </div>
 
   <div class="flex justify-center pt-3" v-for="(item, index) in PROJECT" :key="index">
-    <div class="flex flex-col space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0 pt-3 mr-3 ml-3">
+    <div class="flex flex-col lg:flex-row lg:space-x-10 pt-3 mr-3 ml-3">
       <img :src="item.image" class="w-[27rem] h-[16rem] max-w-full rounded-lg shadow mr-3" />
       <div class="flex flex-col justify-center items-center">
-        <h1 class="font-semibold text-gray-600 ml-3 mr-3">{{ item.name }}</h1>
-        <p class="font-light max-w-sm text-gray-400 pt-2 ml-3 mr-3">{{ item.description }}</p>
-        <p class="mt-4 font-semibold text-gray-600 cursor-pointer ml-3 mr-3">{{ item.language }}</p>
-        <div class="flex space-x-8 mb-0">
-          <p class="mt-8 font-semibold text-gray-600 cursor-pointer ml-3 mr-3">Code <i class="ri-github-fill text-2xl text-black"></i></p>
-          <p class="mt-8 font-semibold text-gray-600 cursor-pointer ml-3 mr-3">Live Demo <i class="ri-external-link-line text-2xl text-black"></i></p>
-        </div>
-      </div>
+  <h1 class="font-bold text-[18px] text-yellow-200 ml-3 mr-3 pt-5">{{ item.name }}</h1>
+  <p class="font-light max-w-sm text-gray-400 pt-1 ml-3 mr-3">{{ item.description }}</p>
+  <p class="mt-5 font-semibold text-green-600 cursor-pointer ml-3 mr-3">{{ item.language }}</p>
+  <div class="flex space-x-8">
+    <p class="mt-4 font-semibold text-gray-600 cursor-pointer mb-0">Code <i class="ri-github-fill text-2xl text-black"></i></p>
+    <p class="mt-4 font-semibold text-gray-600 cursor-pointer mb-0">Live Demo <i class="ri-external-link-line text-2xl text-black"></i></p>
+  </div>
+</div>
+
     </div>
   </div>
   <br />
@@ -27,5 +28,4 @@
 
 <script setup>
   import { PROJECT } from "@/project";
-  import BaseButton from "@/components/base/button.vue";
 </script>
