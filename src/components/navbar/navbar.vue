@@ -1,30 +1,40 @@
 <script setup>
-import { MENUS } from '@/constant';
-import Basebutton from '@/components/base/button.vue';
-import { onMounted, ref } from 'vue';
+  import { MENUS } from "@/constant";
+  import Basebutton from "@/components/base/button.vue";
+  import { onMounted, ref } from "vue";
 
-const itemClicked = ref(null);
+  const itemClicked = ref(null);
 
-const handleItemClick = (itemId) => {
-  itemClicked.value = itemId;
-};
+  const handleItemClick = (itemId) => {
+    itemClicked.value = itemId;
+  };
 
-onMounted(() => {
-  if (MENUS.length > 0) {
-    handleItemClick(MENUS[0].id);
-  }
-});
+  onMounted(() => {
+    if (MENUS.length > 0) {
+      handleItemClick(MENUS[0].id);
+    }
+  });
 </script>
 
 <template>
   <nav class="bg-white w-full z-20 top-0 start-0 border-b border-gray-200 border-b h-[6rem]">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="../../assets/logo.png" class="h-[7rem] w-[6rem]" alt="Flowbite Logo">
+        <img src="../../assets/logo.png" class="h-[7rem] w-[6rem]" alt="Flowbite Logo" />
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <Basebutton name="Telecharger CV" icon="ml-1 font-bold ri-download-cloud-2-line text-white text-md"/>
-        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none " aria-controls="navbar-sticky" aria-expanded="false">
+        <div class="dropdown inline-block relative">
+          <Basebutton name="Telecharger mon CV" icon="ml-1 font-bold ri-download-cloud-2-line text-white text-md" />
+          <ul class="dropdown-content absolute hidden text-gray-700 pt-1 space-y-2">
+            <li>
+              <a href="/cv.pdf" target="_blank" class="block px-4 py-2 text-sm bg-yellow-200 rounded text-black font-bold"> <img src="../../assets/fr.png" alt="French Flag" class="w-4 h-4 mr-2 inline-block" /> Français CV </a>
+            </li>
+            <li>
+              <a href="/cv_en.pdf" target="_blank" class="block px-4 py-2 text-sm bg-yellow-200 rounded text-black font-bold"> <img src="../../assets/en.png" alt="English Flag" class="w-4 h-4 mr-2 inline-block" /> English CV </a>
+            </li>
+          </ul>
+        </div>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none" aria-controls="navbar-sticky" aria-expanded="false" >
           <i class="ri-menu-line"></i>
         </button>
       </div>
@@ -38,3 +48,13 @@ onMounted(() => {
     </div>
   </nav>
 </template>
+<style>
+  .dropdown:hover .dropdown-content {
+    display: block;
+    align-items: center;
+  }
+
+  .dropdown-content {
+  left: 20%;
+}
+</style>
