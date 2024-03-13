@@ -7,7 +7,7 @@
 
   <div class="flex flex-row justify-center space-x-1 md:space-x-5 card-container ml-2">
     <div v-for="(item, index) in LANGUAGE" :key="index" class="card relative overflow-hidden">
-      <img :src="item.image" :alt="item.name" class="rounded h-9 w-9 cursor-pointer mr-3">
+      <img :src="item.image" :alt="item.name" class="rounded h-9 w-9 cursor-pointer mr-3 transition-transform transform hover:scale-105">
     </div>
   </div>
 </div>  
