@@ -1,12 +1,11 @@
 <script setup>
 import BaseButton from '@/components/base/button.vue';
-import Modal from '@/components/modal/modal.vue';
 </script>
 <template>
     <div class="justify-center items-center mx-auto flex pt-8 flex-col pt-[5rem]">
       <div>
         <h1 class="text-xl font-bold text-transparent bg-clip-text bg-yellow-200 md:text-xl lg:text-xl  ml-3 mr-3">Expériences</h1>
-      <p class="max-w-3xl font-light text-gray-400 lg:mb-8 md:text-lg lg:lg:text-[17px] ml-3 mr-3">
+      <p class="max-w-3xl font-light text-gray-500 lg:mb-8 md:text-lg lg:lg:text-[17px] ml-3 mr-3">
         La section expérience présente un aperçu détaillé de mes parcours professionnels et personnels. 🧠
       </p>
       </div>      
@@ -31,7 +30,29 @@ import Modal from '@/components/modal/modal.vue';
           </li>
         </ol>
       </div>
-    <BaseButton class="mt-4" name="Voir plus" icon="ri-eye-line"/>
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-3">
+        <div class="dropdown inline-block relative">
+          <BaseButton name="Voir plus" icon="ri-eye-line text-white text-md ml-2" />
+          <ul class="dropdown-content absolute hidden text-gray-700 pt-1 space-y-2">
+            <li>
+              <a href="/cv.pdf" target="_blank" class="block px-4 py-2 text-sm bg-gray-100 border shadow rounded text-black font-bold"> <img src="../../assets/fr.png" alt="French Flag" class="w-4 h-4 mr-2 inline-block" />Français</a>
+            </li>
+            <li>
+              <a href="/cv_en.pdf" target="_blank" class="block px-4 py-2 text-sm bg-gray-100 border shadow rounded text-black font-bold"> <img src="../../assets/en.png" alt="English Flag" class="w-4 h-4 mr-2 inline-block" />Anglais </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </template>
   
+  <style>
+  .dropdown:hover .dropdown-content {
+    display: block;
+    align-items: center;
+  }
+
+  .dropdown-content {
+    left: 10%;
+  }
+</style>

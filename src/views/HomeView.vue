@@ -31,13 +31,13 @@
   </div>
 </div>
   </div>
-  <div v-else>
+  <div v-else class="">
     <Navbar />
-    <Hero />
-    <Skills />
-    <Competence />
-    <Project />
-    <footer />
+    <Hero :id="0"/>
+    <Skills :id="1"/>
+    <Competence :id="2"/>
+    <Project :id="3"/>
+    <footer/>
   </div>
 </template>
 
