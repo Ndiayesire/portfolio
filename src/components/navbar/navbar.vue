@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-slate-200 border-b h-[6rem] shadow-sm">
+  <nav class="bg-white fixed w-full z-20 top-0 mb-0 start-0 border-b border-slate-200 border-b h-[6rem] shadow-sm">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="../../assets/logo.png" class="h-[7rem] w-[6rem]" alt="Flowbite Logo" />

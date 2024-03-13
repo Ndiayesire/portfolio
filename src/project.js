@@ -4,7 +4,7 @@ export const PROJECT = [
         image: 'online.png',
         description:  "Une plateforme de marketplace est un site web où les utilisateurs peuvent acheter et vendre une variété de produits ou services. Ces sites agissent comme des intermédiaires entre les vendeurs et les acheteurs, offrant un espace centralisé pour la recherche, la comparaison et la transaction d'articles divers",
         language: 'Vue Tailwindcss Javascript',
-        link: '#'
+        link: 'https://onlinevuemarket.netlify.app/'
     },
     {
         name: 'Sama Kalpé 💰',
@@ -35,7 +35,7 @@ export const PROJECT = [
         image: 'currency.png',
         description: "Un convertisseur de devises est un outil ou une application qui permet aux utilisateurs de convertir rapidement et facilement la valeur d'une devise dans une autre.",
         language: 'Vue Tailwindcss Javascript',
-        link: '#'
+        link: 'https://currencyappconverter.netlify.app'
     },
 
     {
@@ -43,7 +43,7 @@ export const PROJECT = [
         image: 'todo.png',
         description: 'Une application TODO est une application conçue pour aider les utilisateurs à gérer les tâches, les rendez-vous et les autres éléments de leur liste de choses à faire. ',
         language: 'Vue Tailwindcss Javascript',
-        link: '#'
+        link: 'https://jsvuetodoapp.netlify.app'
     },
 
     {
@@ -51,6 +51,6 @@ export const PROJECT = [
         image: 'weather.png',
         description: "Une application météo est un programme informatique qui fournit des informations météorologiques en temps réel à ses utilisateurs.",
         language: 'Vue Tailwindcss Javascript',
-        link: '#'
+        link: 'https://weathappvue.netlify.app/'
     },
 ]
