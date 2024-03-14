@@ -38,18 +38,17 @@ const itemClicked = ref(null);
 
 const handleItemClick = (itemId) => {
   itemClicked.value = itemId;
-  // Scroll to the clicked section
   const element = document.getElementById(itemId);
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
   }
 };
 
-onMounted(() => {
-  if (MENUS.length > 0) {
-    handleItemClick(MENUS[0].id);
-  }
-});
+// onMounted(() => {
+//   if (MENUS.length > 0) {
+//     handleItemClick(MENUS[0].id);
+//   }
+// });
 </script>
 
 <style>
